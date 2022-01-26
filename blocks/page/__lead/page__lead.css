@@ -1,3 +1,15 @@
 .page__lead {
   margin: 64px 9.296875% 0 13.828125%;
 }
+
+@media screen and (max-width: 1024px) {
+  .page__lead {
+    margin: 48px 48px 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page__lead {
+    margin: 48px 0 0 0;
+  }
+}
