@@ -7,3 +7,15 @@
     margin: 0 48px 90px 48px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .page__places {
+    margin: 0 24px 90px 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .page__places {
+    margin: 0;
+  }
+}

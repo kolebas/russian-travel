@@ -13,3 +13,9 @@
     margin: 88px 24px 88px 24px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .page__intro {
+    margin: 64px 16px 64px 16px;
+  }
+}  

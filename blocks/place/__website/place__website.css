@@ -1,4 +1,16 @@
-.place__website { 
-  width: 456px;
+.place__website {
+  max-width: 456px;
   align-self: end;
+}
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    max-width: calc((100vw - 48px - 28px)/2);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__website {
+    margin: 32px 16px 32px 16px;
+  }
 }
