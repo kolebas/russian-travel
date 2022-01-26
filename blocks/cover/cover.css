@@ -1,5 +1,5 @@
 .cover {
-  position: relative;   
+  position: relative;
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -8,7 +8,7 @@
 
 .cover::before {
   content: "";
-  background-image: url(/images/cover-trains.jpg);  
+  background-image: url("../../images/cover-trains.jpg");
   background-size: cover;
   position: absolute;
   top: 0px;
