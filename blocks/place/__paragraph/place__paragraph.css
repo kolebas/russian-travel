@@ -1,6 +1,5 @@
 .place__paragraph {
   max-width: 100%;
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -9,8 +8,8 @@
   margin: 0;
 }
 
-.place__paragraph:nth-of-type(2){
-  margin: 26px 0 0 0;
+.place__paragraph:not(:first-of-type){
+  margin-top: 26px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -35,7 +34,7 @@
   .place__paragraph:first-child {
     margin-top: 32px;
   }
-  .place__paragraph:nth-of-type(2){
-    margin: 25px 16px 0 16px;
+  .place__paragraph:not(:first-of-type){
+    margin-top: 25px;
   }
 }

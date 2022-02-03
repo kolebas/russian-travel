@@ -11,7 +11,7 @@
   text-decoration: underline;
 }
 
-.header__lang-link:nth-of-type(2){
+.header__lang-link:last-of-type{
   margin-right: 0;
 }
 

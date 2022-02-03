@@ -6,7 +6,6 @@
   color: #FFFFFF;
   max-width: 360px;
   margin: 0 auto 20.70% auto;
-  text-decoration: none;
 }
 
 @media screen and (max-width: 425px) {
@@ -14,6 +13,6 @@
     font-size: 14px;
     line-height: 16px;
     max-width: 288px;
-    margin: 0 0 33px 0;
+    margin: 0 auto 33px auto;
   }
 }

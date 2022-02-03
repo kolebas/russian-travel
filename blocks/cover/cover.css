@@ -4,20 +4,22 @@
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  background-image: url("../../images/cover-trains.jpg");
+  background-size: cover;
+
 }
 
 .cover::before {
   content: "";
-  background-image: url("../../images/cover-trains.jpg");
-  background-size: cover;
+  background-color: #2A2C2F;
   position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: .8;
+  opacity: .3;
 }
 
 .cover:hover::before {
-  opacity: .3;
+  opacity: .8;
 }
