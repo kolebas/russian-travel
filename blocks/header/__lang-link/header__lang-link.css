@@ -11,6 +11,7 @@
 .header__lang-link:hover {
   text-decoration: underline;
   opacity: 0.5;
+  cursor: pointer;
 }
 
 .header__lang-link:last-of-type{
