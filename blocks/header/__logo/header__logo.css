@@ -1,8 +1,8 @@
 .header__logo {
   width: 176px;
-  height: 52px;
+  height: 48px;
   background-image: url("../../../images/header-logo.svg");
-  background-size: cover;
+  background-size: 176px 48px;
 }
 
 @media screen and (max-width: 425px) {
