@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, auto);
   gap: 48px 40px;
   max-width: 100%;
   margin-top: 80px;
@@ -22,7 +22,6 @@
   .place {
     gap: 48px 28px;
     margin-top: 73px;
-    grid-template-columns: repeat(2, max-content);
   }
 }
 
