@@ -8,7 +8,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
   .page__cover {
     margin: 66px 0 64px 0;
   }

@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
   .page__header {
     margin: 0 16px;
     padding-top: 16px;

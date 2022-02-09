@@ -9,13 +9,25 @@
   margin: 20.69% auto 32px auto;
 }
 
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    margin-top: 195px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    margin-top: 115px; 
+  }
+}
+
 @media screen and (min-width: 425px) and (max-width: 767px) {
   .cover__title {    
     font-size: 32px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;

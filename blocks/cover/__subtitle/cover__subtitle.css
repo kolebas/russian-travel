@@ -5,10 +5,22 @@
   text-align: center;
   color: #FFFFFF;
   max-width: 360px;
-  margin: 0 auto 20.70% auto;
+  margin: 0 auto 20.54% auto;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1024px) {
+  .cover__subtitle {
+    margin-bottom: 195px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    margin-bottom: 115px;
+  }
+}
+
+@media screen and (max-width: 500px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;

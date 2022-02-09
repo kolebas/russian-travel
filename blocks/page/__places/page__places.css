@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
   .page__places {
     margin: 0;
   }
